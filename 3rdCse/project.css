@@ -1,0 +1,58 @@
+.parent{
+	width: 100%;
+	border: 2px solid blue;
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.child{
+	width: 25%;
+	padding: 1%;
+	margin: 1%;
+	border: 2px solid maroon;
+	text-align: center;
+}
+img{
+	width: 250px;
+	height: 250px;
+}
+/* mobile view min 320px max 480px */
+
+@media only screen and (min-width: 320px) and 
+(max-width:480px) {
+  body {
+    background-color: lightblue;
+  }
+  .parent{
+  	display: flex;
+  	flex-direction: column;
+  	width: 100%;
+  }
+  .child{
+  	width: 80%;
+  }
+}
+/* tab  min 481px  max 768px*/
+@media only screen and (min-width: 481px) and 
+(max-width:768px) {
+  body {
+    background-color:teal;
+  }
+  .parent{
+  	width: 100%;
+
+  }
+  .child{
+  	display: flex;
+  	flex-direction: row;
+  	width: 100%;
+  	word-wrap: break-word;
+  }
+  button{
+  	width: 80%;
+  }
+
+}

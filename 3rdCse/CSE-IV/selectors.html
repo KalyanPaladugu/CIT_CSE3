@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> :: Selectors ::</title>
+	<style type="text/css">
+		div h1 {
+			background-color: red;
+			color:white; 
+		}
+		div > h1 {
+			background-color: blue;
+			color: white;
+		}
+		div + h1{
+         font-family: verdana;
+         font-size: 40px;
+		}
+		div ~ h1 {
+			background-color: green;
+			color: pink;
+		}
+	</style>
+</head>
+<body>
+
+<div>
+	<h1>Heading1</h1>
+	<h1>Heading2</h1>
+	<article>
+		<h1>Heading3 </h1>
+	</article>
+	<h1>Heading4</h1>
+	<h1>Heading5</h1>
+</div>
+
+<h1>Heading6</h1>
+<h1>Heading7</h1>
+</body>
+</html>

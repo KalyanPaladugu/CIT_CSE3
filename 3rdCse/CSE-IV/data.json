@@ -1,0 +1,23 @@
+{
+	"profile":[{
+		"img":"1.jpg",
+		"name":"Samsung",
+		"model":"J2",
+		"price":"10K",
+		"button":"Buy"
+	},
+{
+	    "img":"1.jpg",
+		"name":"Apple",
+		"model":"X2",
+		"price":"30K",
+		"button":"Buy"
+},
+{
+	    "img":"1.jpg",
+		"name":"Realme",
+		"model":"C8",
+		"price":"11K",
+		"button":"Buy"
+}]
+}

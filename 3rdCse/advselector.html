@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Adavaned Selector</title>
+</head>
+<style type="text/css">
+
+/*descendant Selector */
+div p{
+	color: yellow;
+}
+/* child comb >*/
+div>p{
+	color:blue;
+	font-size: 50px;
+}
+
+
+/* adjacent */
+div+p{
+	color: red;
+}
+/*general sibling*/
+
+div~p{
+	color: green;
+}
+
+</style>
+<body>
+
+<div>
+	  <p>Paragraph 1 in the div.</p>
+	  <p>Paragraph 2 in the div.</p>
+	  <section>
+	  	<p>Paragraph 3 in the div.</p>
+	  </section>
+	  <p>Paragraph 4 in the div.</p>
+	  <p>Paragraph 5 in the div.</p>
+</div>
+<p>Paragraph 6. Not in a div.</p>
+<p>Paragraph 7 Not in a div.</p>
+
+</body>
+</html>
